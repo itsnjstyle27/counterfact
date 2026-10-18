@@ -1,0 +1,931 @@
+{
+  "truth": 0.4350305857331245,
+  "n": 2000,
+  "results": [
+    {
+      "setting": [
+        "DM",
+        0.0
+      ],
+      "estimator": "DM",
+      "n_runs": 100,
+      "mean": 0.28190833385153674,
+      "bias": -0.15312225188158773,
+      "variance": 0.00046906022186107133,
+      "mse": 0.02391548424314947,
+      "rmse": 0.15464631985000313,
+      "relative_error_mean": 0.3519804282807892,
+      "relative_error_std": 0.050035346655261694,
+      "relative_error_median": 0.3543829139439757
+    },
+    {
+      "setting": [
+        "IPW",
+        0.5
+      ],
+      "estimator": "IPW",
+      "n_runs": 100,
+      "mean": 0.038349999999999995,
+      "bias": -0.3966805857331245,
+      "variance": 7.926250000000004e-06,
+      "mse": 0.15736341334757473,
+      "rmse": 0.3966905763281688,
+      "relative_error_mean": 0.911845278797187,
+      "relative_error_std": 0.0065042390396109805,
+      "relative_error_median": 0.9120751476921096
+    },
+    {
+      "setting": [
+        "DR",
+        0.5
+      ],
+      "estimator": "DR",
+      "n_runs": 100,
+      "mean": 0.29374215965521056,
+      "bias": -0.14128842607791392,
+      "variance": 0.00040144915906173103,
+      "mse": 0.020363868502635878,
+      "rmse": 0.14270202697451734,
+      "relative_error_mean": 0.32477814367881996,
+      "relative_error_std": 0.04628900941185659,
+      "relative_error_median": 0.3278746811799683
+    },
+    {
+      "setting": [
+        "Switch-DR",
+        0.5
+      ],
+      "estimator": "Switch-DR",
+      "n_runs": 100,
+      "mean": 0.28190833385153674,
+      "bias": -0.15312225188158773,
+      "variance": 0.00046906022186107133,
+      "mse": 0.02391548424314947,
+      "rmse": 0.15464631985000313,
+      "relative_error_mean": 0.3519804282807892,
+      "relative_error_std": 0.050035346655261694,
+      "relative_error_median": 0.3543829139439757
+    },
+    {
+      "setting": [
+        "DRos",
+        0.5
+      ],
+      "estimator": "DRos",
+      "n_runs": 100,
+      "mean": 0.2852096606833129,
+      "bias": -0.1498209250498116,
+      "variance": 0.000439053251419786,
+      "mse": 0.022885362834201048,
+      "rmse": 0.15127908921659017,
+      "relative_error_mean": 0.34439170477480263,
+      "relative_error_std": 0.04840845361514428,
+      "relative_error_median": 0.3477128912213615
+    },
+    {
+      "setting": [
+        "IPW",
+        1
+      ],
+      "estimator": "IPW",
+      "n_runs": 100,
+      "mean": 0.07669999999999999,
+      "bias": -0.3583305857331245,
+      "variance": 3.1705000000000016e-05,
+      "mse": 0.12843251367184408,
+      "rmse": 0.3583748228766135,
+      "relative_error_mean": 0.8236905575943742,
+      "relative_error_std": 0.013008478079221956,
+      "relative_error_median": 0.8241502953842192
+    },
+    {
+      "setting": [
+        "DR",
+        1
+      ],
+      "estimator": "DR",
+      "n_runs": 100,
+      "mean": 0.3055759854588844,
+      "bias": -0.12945460027424005,
+      "variance": 0.0003500731664205609,
+      "mse": 0.017108566698583832,
+      "rmse": 0.1307997197955096,
+      "relative_error_mean": 0.29757585907685075,
+      "relative_error_std": 0.0432256987147979,
+      "relative_error_median": 0.3042998047597911
+    },
+    {
+      "setting": [
+        "Switch-DR",
+        1
+      ],
+      "estimator": "Switch-DR",
+      "n_runs": 100,
+      "mean": 0.28190833385153674,
+      "bias": -0.15312225188158773,
+      "variance": 0.00046906022186107133,
+      "mse": 0.02391548424314947,
+      "rmse": 0.15464631985000313,
+      "relative_error_mean": 0.3519804282807892,
+      "relative_error_std": 0.050035346655261694,
+      "relative_error_median": 0.3543829139439757
+    },
+    {
+      "setting": [
+        "DRos",
+        1
+      ],
+      "estimator": "DRos",
+      "n_runs": 100,
+      "mean": 0.2878627722528947,
+      "bias": -0.14716781348022978,
+      "variance": 0.00041759338609181305,
+      "mse": 0.022075958710643516,
+      "rmse": 0.14857980586420053,
+      "relative_error_mean": 0.33829302652874155,
+      "relative_error_std": 0.04721058875834159,
+      "relative_error_median": 0.3423725817823176
+    },
+    {
+      "setting": [
+        "IPW",
+        2
+      ],
+      "estimator": "IPW",
+      "n_runs": 100,
+      "mean": 0.14527112149216342,
+      "bias": -0.28975946424096105,
+      "variance": 0.00012264955053065796,
+      "mse": 0.08408319666773943,
+      "rmse": 0.2899710272902095,
+      "relative_error_mean": 0.666066878384312,
+      "relative_error_std": 0.02558559913169074,
+      "relative_error_median": 0.6661340309734624
+    },
+    {
+      "setting": [
+        "DR",
+        2
+      ],
+      "estimator": "DR",
+      "n_runs": 100,
+      "mean": 0.326473906313605,
+      "bias": -0.10855667941951946,
+      "variance": 0.00031325290227386107,
+      "mse": 0.012097805548866183,
+      "rmse": 0.10999002476982257,
+      "relative_error_mean": 0.24953803934630714,
+      "relative_error_std": 0.04088934581724573,
+      "relative_error_median": 0.2533352406319901
+    },
+    {
+      "setting": [
+        "Switch-DR",
+        2
+      ],
+      "estimator": "Switch-DR",
+      "n_runs": 100,
+      "mean": 0.29014179012875574,
+      "bias": -0.14488879560436874,
+      "variance": 0.00038509438774481726,
+      "mse": 0.02137785747942936,
+      "rmse": 0.14621168721900915,
+      "relative_error_mean": 0.33305427332241144,
+      "relative_error_std": 0.04533631377160489,
+      "relative_error_median": 0.33801100639599363
+    },
+    {
+      "setting": [
+        "DRos",
+        2
+      ],
+      "estimator": "DRos",
+      "n_runs": 100,
+      "mean": 0.2920904481005865,
+      "bias": -0.142940137632538,
+      "variance": 0.0003880164667865508,
+      "mse": 0.020819899413195456,
+      "rmse": 0.1442910233285337,
+      "relative_error_mean": 0.3285749147767429,
+      "relative_error_std": 0.04550799367581994,
+      "relative_error_median": 0.33319989390263804
+    },
+    {
+      "setting": [
+        "IPW",
+        3
+      ],
+      "estimator": "IPW",
+      "n_runs": 100,
+      "mean": 0.1971070260070104,
+      "bias": -0.23792355972611406,
+      "variance": 0.00023988873983731145,
+      "mse": 0.05684750901258308,
+      "rmse": 0.23842715661724248,
+      "relative_error_mean": 0.5469122575029047,
+      "relative_error_std": 0.03578224147619379,
+      "relative_error_median": 0.5506256975651765
+    },
+    {
+      "setting": [
+        "DR",
+        3
+      ],
+      "estimator": "DR",
+      "n_runs": 100,
+      "mean": 0.34256800073990523,
+      "bias": -0.09246258499321924,
+      "variance": 0.00033758975315373627,
+      "mse": 0.00888691937678203,
+      "rmse": 0.09427045866432406,
+      "relative_error_mean": 0.21254272234077273,
+      "relative_error_std": 0.04244800059344947,
+      "relative_error_median": 0.21433732221079385
+    },
+    {
+      "setting": [
+        "Switch-DR",
+        3
+      ],
+      "estimator": "Switch-DR",
+      "n_runs": 100,
+      "mean": 0.29944351907933997,
+      "bias": -0.1355870666537845,
+      "variance": 0.00032285315444564107,
+      "mse": 0.018706705798223443,
+      "rmse": 0.1367724599406746,
+      "relative_error_mean": 0.31167249177500894,
+      "relative_error_std": 0.04151118467165554,
+      "relative_error_median": 0.31855007796065504
+    },
+    {
+      "setting": [
+        "DRos",
+        3
+      ],
+      "estimator": "DRos",
+      "n_runs": 100,
+      "mean": 0.2954717991640059,
+      "bias": -0.13955878656911858,
+      "variance": 0.000368217107764186,
+      "mse": 0.019844872016408978,
+      "rmse": 0.14087182832777098,
+      "relative_error_mean": 0.32080224045380773,
+      "relative_error_std": 0.04433172105627019,
+      "relative_error_median": 0.32567709785519716
+    },
+    {
+      "setting": [
+        "IPW",
+        5
+      ],
+      "estimator": "IPW",
+      "n_runs": 100,
+      "mean": 0.2695396367608758,
+      "bias": -0.1654909489722487,
+      "variance": 0.0004963643074561191,
+      "mse": 0.02788361849919154,
+      "rmse": 0.16698388694479338,
+      "relative_error_mean": 0.3804122155994139,
+      "relative_error_std": 0.05147103283702369,
+      "relative_error_median": 0.38440712235422064
+    },
+    {
+      "setting": [
+        "DR",
+        5
+      ],
+      "estimator": "DR",
+      "n_runs": 100,
+      "mean": 0.36725432030379856,
+      "bias": -0.06777626542932591,
+      "variance": 0.00044214679405671484,
+      "mse": 0.005035768949603153,
+      "rmse": 0.07096315205515573,
+      "relative_error_mean": 0.1557965523621922,
+      "relative_error_std": 0.04857869577971402,
+      "relative_error_median": 0.15750844947365622
+    },
+    {
+      "setting": [
+        "Switch-DR",
+        5
+      ],
+      "estimator": "Switch-DR",
+      "n_runs": 100,
+      "mean": 0.314431238263688,
+      "bias": -0.12059934746943646,
+      "variance": 0.0003006305021377276,
+      "mse": 0.014844833112191596,
+      "rmse": 0.12183937422767566,
+      "relative_error_mean": 0.2772203873118471,
+      "relative_error_std": 0.04005706561372992,
+      "relative_error_median": 0.2802847250870787
+    },
+    {
+      "setting": [
+        "DRos",
+        5
+      ],
+      "estimator": "DRos",
+      "n_runs": 100,
+      "mean": 0.3008362574626141,
+      "bias": -0.13419432827051037,
+      "variance": 0.00034329924933403213,
+      "mse": 0.018351416989307527,
+      "rmse": 0.13546740194344736,
+      "relative_error_mean": 0.30847101944421373,
+      "relative_error_std": 0.042805447100088004,
+      "relative_error_median": 0.3129119985514264
+    },
+    {
+      "setting": [
+        "IPW",
+        7
+      ],
+      "estimator": "IPW",
+      "n_runs": 100,
+      "mean": 0.3182686978276017,
+      "bias": -0.11676188790552278,
+      "variance": 0.0007569272869477843,
+      "mse": 0.01439026575420965,
+      "rmse": 0.11995943378579965,
+      "relative_error_mean": 0.2683992614191776,
+      "relative_error_std": 0.06356084928741484,
+      "relative_error_median": 0.27023313881807853
+    },
+    {
+      "setting": [
+        "DR",
+        7
+      ],
+      "estimator": "DR",
+      "n_runs": 100,
+      "mean": 0.3856039875043733,
+      "bias": -0.04942659822875117,
+      "variance": 0.0005820319107190653,
+      "mse": 0.003025020523185454,
+      "rmse": 0.05500018657409676,
+      "relative_error_mean": 0.11460748286931174,
+      "relative_error_std": 0.05364723196269724,
+      "relative_error_median": 0.11686528707086521
+    },
+    {
+      "setting": [
+        "Switch-DR",
+        7
+      ],
+      "estimator": "Switch-DR",
+      "n_runs": 100,
+      "mean": 0.33135873314577063,
+      "bias": -0.10367185258735384,
+      "variance": 0.000345834566239455,
+      "mse": 0.01109368758513348,
+      "rmse": 0.1053265758730126,
+      "relative_error_mean": 0.23830934188832587,
+      "relative_error_std": 0.042963218696284174,
+      "relative_error_median": 0.2373478054677381
+    },
+    {
+      "setting": [
+        "DRos",
+        7
+      ],
+      "estimator": "DRos",
+      "n_runs": 100,
+      "mean": 0.3051071275297936,
+      "bias": -0.1299234582033309,
+      "variance": 0.00032868466874233824,
+      "mse": 0.01720878966025501,
+      "rmse": 0.1311822764715379,
+      "relative_error_mean": 0.29865361761720877,
+      "relative_error_std": 0.04188440345287006,
+      "relative_error_median": 0.3031901754140009
+    },
+    {
+      "setting": [
+        "IPW",
+        10
+      ],
+      "estimator": "IPW",
+      "n_runs": 100,
+      "mean": 0.36243094383183716,
+      "bias": -0.07259964190128732,
+      "variance": 0.0010961922600706585,
+      "mse": 0.0063669002642658115,
+      "rmse": 0.07979285847910082,
+      "relative_error_mean": 0.1685730751064199,
+      "relative_error_std": 0.0726527229818567,
+      "relative_error_median": 0.16930662890110829
+    },
+    {
+      "setting": [
+        "DR",
+        10
+      ],
+      "estimator": "DR",
+      "n_runs": 100,
+      "mean": 0.40324957261292055,
+      "bias": -0.03178101312020393,
+      "variance": 0.0007594753362859322,
+      "mse": 0.0017695081312325063,
+      "rmse": 0.0420655218823267,
+      "relative_error_mean": 0.08217839828698342,
+      "relative_error_std": 0.05121493924359738,
+      "relative_error_median": 0.07960861981083425
+    },
+    {
+      "setting": [
+        "Switch-DR",
+        10
+      ],
+      "estimator": "Switch-DR",
+      "n_runs": 100,
+      "mean": 0.36003184769276325,
+      "bias": -0.07499873804036122,
+      "variance": 0.000532041124452326,
+      "mse": 0.006156851832099052,
+      "rmse": 0.0784656092316822,
+      "relative_error_mean": 0.1723987703392659,
+      "relative_error_std": 0.05328871060709227,
+      "relative_error_median": 0.17447239804243714
+    },
+    {
+      "setting": [
+        "DRos",
+        10
+      ],
+      "estimator": "DRos",
+      "n_runs": 100,
+      "mean": 0.31032236221476234,
+      "bias": -0.12470822351836214,
+      "variance": 0.0003165031236826268,
+      "mse": 0.015868644136788398,
+      "rmse": 0.12597080668467753,
+      "relative_error_mean": 0.2866654152792514,
+      "relative_error_std": 0.041100926414924195,
+      "relative_error_median": 0.2914318652496676
+    },
+    {
+      "setting": [
+        "IPW",
+        15
+      ],
+      "estimator": "IPW",
+      "n_runs": 100,
+      "mean": 0.39469113431945624,
+      "bias": -0.04033945141366824,
+      "variance": 0.0014703752004811572,
+      "mse": 0.0030976465408368574,
+      "rmse": 0.05565650492832673,
+      "relative_error_mean": 0.10731212595073134,
+      "relative_error_std": 0.07000708303735854,
+      "relative_error_median": 0.09934599241820612
+    },
+    {
+      "setting": [
+        "DR",
+        15
+      ],
+      "estimator": "DR",
+      "n_runs": 100,
+      "mean": 0.4165023456045996,
+      "bias": -0.018528240128524887,
+      "variance": 0.0009357093305634632,
+      "mse": 0.001279005012823743,
+      "rmse": 0.03576317956815002,
+      "relative_error_mean": 0.06772506970046814,
+      "relative_error_std": 0.04683454850112828,
+      "relative_error_median": 0.058768732254134565
+    },
+    {
+      "setting": [
+        "Switch-DR",
+        15
+      ],
+      "estimator": "Switch-DR",
+      "n_runs": 100,
+      "mean": 0.3944631933811225,
+      "bias": -0.04056739235200196,
+      "variance": 0.000741060704863337,
+      "mse": 0.0023867740271046045,
+      "rmse": 0.048854621348492756,
+      "relative_error_mean": 0.09902954108170167,
+      "relative_error_std": 0.053227114512584286,
+      "relative_error_median": 0.09266892291122644
+    },
+    {
+      "setting": [
+        "DRos",
+        15
+      ],
+      "estimator": "DRos",
+      "n_runs": 100,
+      "mean": 0.3171517585467004,
+      "bias": -0.11787882718642406,
+      "variance": 0.000308955292739618,
+      "mse": 0.014204373191586447,
+      "rmse": 0.1191821009698455,
+      "relative_error_mean": 0.27096675740114157,
+      "relative_error_std": 0.040607890606238976,
+      "relative_error_median": 0.2749447065418523
+    },
+    {
+      "setting": [
+        "IPW",
+        20
+      ],
+      "estimator": "IPW",
+      "n_runs": 100,
+      "mean": 0.4076872254992698,
+      "bias": -0.027343360233854697,
+      "variance": 0.0017267739047609556,
+      "mse": 0.002474433253639302,
+      "rmse": 0.049743675513971644,
+      "relative_error_mean": 0.09392894535367137,
+      "relative_error_std": 0.06553730138868709,
+      "relative_error_median": 0.08001259861042173
+    },
+    {
+      "setting": [
+        "DR",
+        20
+      ],
+      "estimator": "DR",
+      "n_runs": 100,
+      "mean": 0.4215785055159787,
+      "bias": -0.013452080217145779,
+      "variance": 0.0010449416867636886,
+      "mse": 0.0012259001489322134,
+      "rmse": 0.035012856909030055,
+      "relative_error_mean": 0.06630835476669578,
+      "relative_error_std": 0.045845841636092705,
+      "relative_error_median": 0.053935746255270436
+    },
+    {
+      "setting": [
+        "Switch-DR",
+        20
+      ],
+      "estimator": "Switch-DR",
+      "n_runs": 100,
+      "mean": 0.4069700489693516,
+      "bias": -0.028060536763772848,
+      "variance": 0.0008784750176951966,
+      "mse": 0.0016658687411662443,
+      "rmse": 0.04081505532479705,
+      "relative_error_mean": 0.07818460950094178,
+      "relative_error_std": 0.052122318880519686,
+      "relative_error_median": 0.07271282521746888
+    },
+    {
+      "setting": [
+        "DRos",
+        20
+      ],
+      "estimator": "DRos",
+      "n_runs": 100,
+      "mean": 0.32258747190252934,
+      "bias": -0.11244311383059513,
+      "variance": 0.0003089884588723414,
+      "mse": 0.012952442306792515,
+      "rmse": 0.11380879714148864,
+      "relative_error_mean": 0.25847174317893795,
+      "relative_error_std": 0.04061007016195199,
+      "relative_error_median": 0.26258696662303405
+    },
+    {
+      "setting": [
+        "IPW",
+        30
+      ],
+      "estimator": "IPW",
+      "n_runs": 100,
+      "mean": 0.4190070067189174,
+      "bias": -0.01602357901420709,
+      "variance": 0.0020001413111774015,
+      "mse": 0.002256896395601939,
+      "rmse": 0.047506803676967566,
+      "relative_error_mean": 0.0880213607564058,
+      "relative_error_std": 0.06496008794896999,
+      "relative_error_median": 0.0782439629671768
+    },
+    {
+      "setting": [
+        "DR",
+        30
+      ],
+      "estimator": "DR",
+      "n_runs": 100,
+      "mean": 0.426449860048175,
+      "bias": -0.008580725684949497,
+      "variance": 0.0011674282360704452,
+      "mse": 0.0012410570893507972,
+      "rmse": 0.03522864018594526,
+      "relative_error_mean": 0.06505586261283199,
+      "relative_error_std": 0.04846579827925202,
+      "relative_error_median": 0.05160547143283036
+    },
+    {
+      "setting": [
+        "Switch-DR",
+        30
+      ],
+      "estimator": "Switch-DR",
+      "n_runs": 100,
+      "mean": 0.4176600698916914,
+      "bias": -0.017370515841433065,
+      "variance": 0.0010060341528222653,
+      "mse": 0.0013077689734197423,
+      "rmse": 0.03616308854923404,
+      "relative_error_mean": 0.06973251307606267,
+      "relative_error_std": 0.045478264320358744,
+      "relative_error_median": 0.060009679933192735
+    },
+    {
+      "setting": [
+        "DRos",
+        30
+      ],
+      "estimator": "DRos",
+      "n_runs": 100,
+      "mean": 0.33105049305980616,
+      "bias": -0.10398009267331831,
+      "variance": 0.0003183648217237308,
+      "mse": 0.011130224494075596,
+      "rmse": 0.10549987911877243,
+      "relative_error_mean": 0.23901788996764117,
+      "relative_error_std": 0.04122162873597096,
+      "relative_error_median": 0.24259494764660827
+    },
+    {
+      "setting": [
+        "IPW",
+        50
+      ],
+      "estimator": "IPW",
+      "n_runs": 100,
+      "mean": 0.4255690613257137,
+      "bias": -0.00946152440741077,
+      "variance": 0.002250914506682866,
+      "mse": 0.0023404349507948957,
+      "rmse": 0.04837804203143091,
+      "relative_error_mean": 0.08812964045860446,
+      "relative_error_std": 0.06816465961007667,
+      "relative_error_median": 0.07454219512063975
+    },
+    {
+      "setting": [
+        "DR",
+        50
+      ],
+      "estimator": "DR",
+      "n_runs": 100,
+      "mean": 0.4294980104100612,
+      "bias": -0.005532575323063282,
+      "variance": 0.0013102880178362517,
+      "mse": 0.0013408974075416204,
+      "rmse": 0.03661826603679672,
+      "relative_error_mean": 0.06757685642251211,
+      "relative_error_std": 0.050438795170471416,
+      "relative_error_median": 0.0496534185268135
+    },
+    {
+      "setting": [
+        "Switch-DR",
+        50
+      ],
+      "estimator": "Switch-DR",
+      "n_runs": 100,
+      "mean": 0.42540276131319826,
+      "bias": -0.009627824419926212,
+      "variance": 0.0011990938720351466,
+      "mse": 0.001291788875096074,
+      "rmse": 0.03594146456526325,
+      "relative_error_mean": 0.06645573394105071,
+      "relative_error_std": 0.04933302858535729,
+      "relative_error_median": 0.05458902778584894
+    },
+    {
+      "setting": [
+        "DRos",
+        50
+      ],
+      "estimator": "DRos",
+      "n_runs": 100,
+      "mean": 0.34286691921328194,
+      "bias": -0.09216366651984254,
+      "variance": 0.00034792599279144146,
+      "mse": 0.008842067419172185,
+      "rmse": 0.09403226796782148,
+      "relative_error_mean": 0.21185560174930218,
+      "relative_error_std": 0.04309293241809643,
+      "relative_error_median": 0.2139499105298926
+    },
+    {
+      "setting": [
+        "IPW",
+        75
+      ],
+      "estimator": "IPW",
+      "n_runs": 100,
+      "mean": 0.4282498468400985,
+      "bias": -0.006780738893025995,
+      "variance": 0.002405237469366049,
+      "mse": 0.002451215889301444,
+      "rmse": 0.049509755496280165,
+      "relative_error_mean": 0.09067689440979558,
+      "relative_error_std": 0.06912040594507449,
+      "relative_error_median": 0.07516796984345513
+    },
+    {
+      "setting": [
+        "DR",
+        75
+      ],
+      "estimator": "DR",
+      "n_runs": 100,
+      "mean": 0.43072765009173003,
+      "bias": -0.004302935641394445,
+      "variance": 0.0013965139849478408,
+      "mse": 0.0014150292400818235,
+      "rmse": 0.03761687440606706,
+      "relative_error_mean": 0.06927473595905223,
+      "relative_error_std": 0.052009947224910195,
+      "relative_error_median": 0.052050209458150656
+    },
+    {
+      "setting": [
+        "Switch-DR",
+        75
+      ],
+      "estimator": "Switch-DR",
+      "n_runs": 100,
+      "mean": 0.42908460310169305,
+      "bias": -0.0059459826314314235,
+      "variance": 0.001337124137263275,
+      "mse": 0.0013724788467165592,
+      "rmse": 0.037046981614114786,
+      "relative_error_mean": 0.06786839966941821,
+      "relative_error_std": 0.0516986078495257,
+      "relative_error_median": 0.05491893916388872
+    },
+    {
+      "setting": [
+        "DRos",
+        75
+      ],
+      "estimator": "DRos",
+      "n_runs": 100,
+      "mean": 0.3528766752943841,
+      "bias": -0.08215391043874037,
+      "variance": 0.00038618093197576346,
+      "mse": 0.007135445932352338,
+      "rmse": 0.08447156878117239,
+      "relative_error_mean": 0.1888462860612261,
+      "relative_error_std": 0.04540022694972132,
+      "relative_error_median": 0.18937066874746802
+    },
+    {
+      "setting": [
+        "IPW",
+        100
+      ],
+      "estimator": "IPW",
+      "n_runs": 100,
+      "mean": 0.4294302672666403,
+      "bias": -0.005600318466484178,
+      "variance": 0.002503928924905208,
+      "mse": 0.0025352924918312517,
+      "rmse": 0.05035168807330348,
+      "relative_error_mean": 0.09292673257235183,
+      "relative_error_std": 0.06934785749653018,
+      "relative_error_median": 0.07610373276122548
+    },
+    {
+      "setting": [
+        "DR",
+        100
+      ],
+      "estimator": "DR",
+      "n_runs": 100,
+      "mean": 0.43128369468234373,
+      "bias": -0.003746891050780743,
+      "variance": 0.0014568520239844303,
+      "mse": 0.0014708912165308512,
+      "rmse": 0.03835219963093188,
+      "relative_error_mean": 0.07089967289193146,
+      "relative_error_std": 0.0526603635219347,
+      "relative_error_median": 0.059416159606809
+    },
+    {
+      "setting": [
+        "Switch-DR",
+        100
+      ],
+      "estimator": "Switch-DR",
+      "n_runs": 100,
+      "mean": 0.429243375217243,
+      "bias": -0.005787210515881491,
+      "variance": 0.0013364996674069957,
+      "mse": 0.001369991472962125,
+      "rmse": 0.03701339585828521,
+      "relative_error_mean": 0.06809514411316092,
+      "relative_error_std": 0.0512672380907559,
+      "relative_error_median": 0.05491893916388872
+    },
+    {
+      "setting": [
+        "DRos",
+        100
+      ],
+      "estimator": "DRos",
+      "n_runs": 100,
+      "mean": 0.36012098763437,
+      "bias": -0.07490959809875447,
+      "variance": 0.0004209247245245968,
+      "mse": 0.006032372611841516,
+      "rmse": 0.07766835012951875,
+      "relative_error_mean": 0.17219386534055964,
+      "relative_error_std": 0.04739852520068578,
+      "relative_error_median": 0.17418056657679432
+    },
+    {
+      "setting": [
+        "IPW",
+        "inf"
+      ],
+      "estimator": "IPW",
+      "n_runs": 100,
+      "mean": 0.4309267667790455,
+      "bias": -0.004103818954078964,
+      "variance": 0.002771004109402625,
+      "mse": 0.002787845439410483,
+      "rmse": 0.052800051509543845,
+      "relative_error_mean": 0.09636671946403952,
+      "relative_error_std": 0.07415755486610116,
+      "relative_error_median": 0.07770224873710485
+    },
+    {
+      "setting": [
+        "DR",
+        "inf"
+      ],
+      "estimator": "DR",
+      "n_runs": 100,
+      "mean": 0.4315924411543183,
+      "bias": -0.0034381445788062015,
+      "variance": 0.0016587227934507745,
+      "mse": 0.0016705436315955491,
+      "rmse": 0.04087228439414109,
+      "relative_error_mean": 0.07503680706375701,
+      "relative_error_std": 0.05682314844881238,
+      "relative_error_median": 0.05965524799052185
+    },
+    {
+      "setting": [
+        "Switch-DR",
+        "inf"
+      ],
+      "estimator": "Switch-DR",
+      "n_runs": 100,
+      "mean": 0.4315924411543183,
+      "bias": -0.0034381445788062015,
+      "variance": 0.0016587227934507745,
+      "mse": 0.0016705436315955491,
+      "rmse": 0.04087228439414109,
+      "relative_error_mean": 0.07503680706375701,
+      "relative_error_std": 0.05682314844881238,
+      "relative_error_median": 0.05965524799052185
+    },
+    {
+      "setting": [
+        "DRos",
+        "inf"
+      ],
+      "estimator": "DRos",
+      "n_runs": 100,
+      "mean": 0.4315924411543183,
+      "bias": -0.0034381445788062015,
+      "variance": 0.0016587227934507745,
+      "mse": 0.0016705436315955491,
+      "rmse": 0.04087228439414109,
+      "relative_error_mean": 0.07503680706375701,
+      "relative_error_std": 0.05682314844881238,
+      "relative_error_median": 0.05965524799052185
+    }
+  ],
+  "study": "clipping",
+  "config": {
+    "environment": {
+      "n_actions": 10,
+      "dim_context": 5,
+      "base_logit": -1.5,
+      "interaction_scale": 1.0,
+      "epsilon": 0.3,
+      "behavior_inverse_temperature": 1.0
+    },
+    "n_runs": 100
+  },
+  "seconds": 22.9
+}

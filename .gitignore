@@ -1,0 +1,16 @@
+# Environments
+.venv/
+__pycache__/
+*.egg-info/
+.ruff_cache/
+.pytest_cache/
+
+# Datasets: downloaded or derived, never committed (see README "Data")
+data/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.env
